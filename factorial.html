@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial Program</title>
+</head>
+<body>
+
+    <h3>Factorial using Prompt and Alert</h3>
+
+    <button onclick="calculateFactorial()">Calculate Factorial</button>
+
+    <script>
+        function calculateFactorial() {
+            var n = prompt("Enter a number:");
+            var fact = 1;
+
+            for (var i = 1; i <= n; i++) {
+                fact = fact * i;
+            }
+
+            alert("Factorial of " + n + " is: " + fact);
+        }
+    </script>
+
+</body>
+</html>
